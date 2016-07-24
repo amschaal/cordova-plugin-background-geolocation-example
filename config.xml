@@ -15,7 +15,7 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-
+    <hook type="after_platform_add" src="scripts/install_plugins.js"/>
     <platform name="android">
         <content src="www/index.android.html" />
         <allow-intent href="market:*" />
