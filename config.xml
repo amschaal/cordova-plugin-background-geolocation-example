@@ -28,5 +28,5 @@
         <hook type="after_prepare" src="scripts/res_ios.js"/>
         <hook type="after_platform_add" src="scripts/install_ios.js"/>
     </platform>
-
+    <gap:plugin name="cordova-plugin-mauron85-background-geolocation" source="npm"/>
 </widget>
