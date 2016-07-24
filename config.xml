@@ -28,5 +28,6 @@
         <hook type="after_prepare" src="scripts/res_ios.js"/>
         <hook type="after_platform_add" src="scripts/install_ios.js"/>
     </platform>
+    <preference name="android-build-tool" value="gradle" />
     <gap:plugin name="cordova-plugin-mauron85-background-geolocation" source="npm"/>
 </widget>
